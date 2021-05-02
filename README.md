@@ -63,8 +63,8 @@ Na pasta src, temos dois diretórios principais:
 - `App.js`: o lugar onde está a lógica principal para este workshop
 - `Components /`: componentes reutilizados nas páginas
 - `Hooks /`: que contem nossos hooks costumizaveis,
-- 'Pages/' : onde vamos ter as paginas referente as rotas da aplicão
-- 'Utils' : que contem algums arquivos utilitarios para a aplicão
+- `Pages/` : onde vamos ter as paginas referente as rotas da aplicão
+- `Utils` : que contem algums arquivos utilitarios para a aplicão
 
 ## Expert
 
