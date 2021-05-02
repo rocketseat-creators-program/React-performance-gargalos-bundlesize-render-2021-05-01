@@ -13,7 +13,7 @@ function Search() {
 
   const [inputValue, setInputValue] = React.useState("");
 
-  const allItems = React.useMemo(() => getItems(inputValue),[inputValue]);
+  const allItems = getItems(inputValue);
 
   const items = allItems.slice(0, 100);
 
