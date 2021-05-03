@@ -3,9 +3,7 @@
 
 ## React performance: identificando gargalos, reduzindo o bundlesize, e melhorando o render
 
-Nesta aula, vamos cobrir um passo a passo das técnicas de melhoria de desempenho que uso ao criar aplicativos com react, vamos aprender a identificar gargalos, aplicar técnicas para dividir nosso código em pedaços menores, analisar a renderização de nossos componentes e aplicar técnicas de memoização para  evitar re-renderizar componentes, usaremos webworkers para liberar o processamento da thread principal
-tornando nosso aplicativo mais rápido e ágil, ao final desta aula, você será capaz de
-aplicar esses conceitos para analisar e melhorar o desempenho de seus aplicativos.
+Nesta aula vamos cobrir um passo a passo das técnicas de melhoria de desempenho que uso ao criar aplicativos com react, vamos aprender a identificar gargalos, aplicar técnicas para dividir nosso código em pedaços menores, analisar a renderização de nossos componentes e aplicar técnicas de memoização para evitar re-renderizar componentes. Usaremos webworkers para liberar o processamento da thread principal tornando nosso aplicativo mais rápido e ágil. Ao final desta aula, você será capaz de aplicar esses conceitos para analisar e melhorar o desempenho de seus aplicativos.
 
 ## Primeiros passos 🏁
 
@@ -56,7 +54,7 @@ Finalmente, vá para [localhost: 3000](http://localhost:3000) no navegador de su
 
 ## Estrutura do Projeto 🏗
 
-O projeto segue um esqueleto regular [create-react-app](https://github.com/facebook/create-react-app) com muito poucas modificações.
+O projeto segue um esqueleto regular [create-react-app](https://github.com/facebook/create-react-app) com pouquíssimas modificações.
 
 Na pasta src, temos dois diretórios principais:
 
