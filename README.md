@@ -3,7 +3,7 @@
 
 ## React performance: identificando gargalos, reduzindo o bundlesize, e melhorando o render
 
-nesta aula, vamos cobrir um passo a passo das técnicas de melhoria de desempenho que uso ao criar aplicativos com react, vamos aprender a identificar gargalos, aplicar técnicas para dividir nosso código em pedaços menores, analisar a renderização de nossos componentes e aplicar técnicas de memoização para  evitar re-renderizar componentes, usaremos webworkers para liberar o processamento da thread principal
+Nesta aula, vamos cobrir um passo a passo das técnicas de melhoria de desempenho que uso ao criar aplicativos com react, vamos aprender a identificar gargalos, aplicar técnicas para dividir nosso código em pedaços menores, analisar a renderização de nossos componentes e aplicar técnicas de memoização para  evitar re-renderizar componentes, usaremos webworkers para liberar o processamento da thread principal
 tornando nosso aplicativo mais rápido e ágil, ao final desta aula, você será capaz de
 aplicar esses conceitos para analisar e melhorar o desempenho de seus aplicativos.
 
