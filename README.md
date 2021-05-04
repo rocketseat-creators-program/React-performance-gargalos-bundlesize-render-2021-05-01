@@ -3,10 +3,7 @@
 
 ## React performance: identificando gargalos, reduzindo o bundlesize, e melhorando o render
 
-nessa aula eu vou cobrir um passo a passo das tecnicas de melhoria de performance que eu utilizo ao criar aplicações com react vamos aprender a identificar gargalos, aplicar tecnicas para dividir nosso codigo em chunks menores, analizar o render dos nossos componentes e aplicar tecnicas de memoização para evitar
-re-renders,vamos utilizar webworkers para livrar o processamento da trhead princial
-deixando nosso app mais rapido e responsivo,  no final dessa aula, você será capaz
-aplicar esses conceitos para analisar e melhorar o desempenho de seus aplicativos em react.
+Nesta aula vamos cobrir um passo a passo das técnicas de melhoria de desempenho que uso ao criar aplicativos com react, vamos aprender a identificar gargalos, aplicar técnicas para dividir nosso código em pedaços menores, analisar a renderização de nossos componentes e aplicar técnicas de memoização para evitar re-renderizar componentes. Usaremos webworkers para liberar o processamento da thread principal tornando nosso aplicativo mais rápido e ágil. Ao final desta aula, você será capaz de aplicar esses conceitos para analisar e melhorar o desempenho de seus aplicativos.
 
 ## Primeiros passos 🏁
 
@@ -44,7 +41,7 @@ npm run start
 
 Finalmente, vá para [localhost: 3000](http://localhost:3000) no navegador de sua escolha e você está pronto para ir 🚀.
 
-💡 **Dica profissional** use o `App.final.js` como guia de referência final, este arquivo contém o projeto final para que você possa acompanhar.
+💡 **Dica profissional** use o branch `final` como guia de referência final, este branch contém o projeto final para que você possa acompanhar.
 
 
 ## Ferramentas 🧰
@@ -57,15 +54,15 @@ Finalmente, vá para [localhost: 3000](http://localhost:3000) no navegador de su
 
 ## Estrutura do Projeto 🏗
 
-O projeto segue um esqueleto regular [create-react-app](https://github.com/facebook/create-react-app) com muito poucas modificações.
+O projeto segue um esqueleto regular [create-react-app](https://github.com/facebook/create-react-app) com pouquíssimas modificações.
 
 Na pasta src, temos dois diretórios principais:
 
 - `App.js`: o lugar onde está a lógica principal para este workshop
 - `Components /`: componentes reutilizados nas páginas
 - `Hooks /`: que contem nossos hooks costumizaveis,
-- 'Pages/' : onde vamos ter as paginas referente as rotas da aplicão
-- 'Utils' : que contem algums arquivos utilitarios para a aplicão
+- `Pages/` : onde vamos ter as paginas referente as rotas da aplicão
+- `Utils` : que contem algums arquivos utilitarios para a aplicão
 
 ## Expert
 
